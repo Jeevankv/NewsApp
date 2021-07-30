@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEFFFF"
+    android:background="#E4F9F5"
     android:padding="10dp"
     tools:context=".MainActivity">
 
@@ -16,22 +16,22 @@
         android:hint="Email" />
 
     <EditText
-        android:inputType="textPassword"
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/username"
         android:layout_marginTop="50dp"
-        android:hint="Password" />
+        android:hint="Password"
+        android:inputType="textPassword" />
 
     <EditText
-        android:inputType="textPassword"
         android:id="@+id/repassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password"
         android:layout_marginTop="50dp"
-        android:hint="Retype Password" />
+        android:hint="Retype Password"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btnsignup"
@@ -39,7 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/repassword"
         android:layout_marginTop="50dp"
-        android:text="Register" />
+        android:text="Register"
+        app:backgroundTint="#11999E" />
 
     <Button
         android:id="@+id/btnsignin"
@@ -47,6 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnsignup"
         android:layout_marginTop="50dp"
-        android:text="Existing user! Go to Sign in page" />
+        android:text="Existing user! Go to Sign in page"
+        app:backgroundTint="#11999E" />
 
 </RelativeLayout>
