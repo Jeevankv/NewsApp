@@ -11,7 +11,7 @@
         android:id="@+id/username1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="User Name"
+        android:hint="Email"
         android:layout_marginTop="50dp"/>
 
     <EditText
@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
+        android:inputType="textPassword"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/username1"/>
 
