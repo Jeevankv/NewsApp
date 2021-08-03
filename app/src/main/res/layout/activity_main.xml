@@ -8,11 +8,25 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="109dp"
+        android:text="News App"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         android:hint="Email" />
 
     <EditText
@@ -48,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnsignup"
         android:layout_marginTop="50dp"
-        android:text="Existing user! Go to Sign in page"
+        android:text="Existing User? Sign in"
         app:backgroundTint="#11999E" />
 
 </RelativeLayout>
